@@ -12,15 +12,15 @@ let package = Package(
             targets: ["MapplsUIWidgetWrapper"])
     ],
     dependencies: [
-        .package(url: "https://github.com/mappls-api/mappls-api-core-ios-distribution.git", from: "2.0.4"),
-        .package(url: "https://github.com/mappls-api/mappls-api-kit-ios-distribution.git", from: "3.0.0"),
-        .package(url: "https://github.com/mappls-api/mappls-map-ios-distribution.git", from: "6.0.0")
+        .package(url: "https://github.com/mappls-api/mappls-api-core-ios-distribution.git", from: "2.1.2"),
+        .package(url: "https://github.com/mappls-api/mappls-api-kit-ios-distribution.git", from: "3.0.4"),
+        .package(url: "https://github.com/mappls-api/mappls-map-ios-distribution.git", from: "6.1.3")
     ],
     targets: [
         .binaryTarget(
             name: "MapplsUIWidgets",
-            url: "https://mmi-api-team.s3.amazonaws.com/mappls-sdk-ios/mappls-uiwidget/MapplsUIWidgets.xcframework-2.0.0.zip",
-            checksum: "e196fda393160a5b6a3653089d445f3c5532f729480c3abacc82ad5fef02da09"
+            url: "https://mmi-api-team.s3.amazonaws.com/mappls-sdk-ios/mappls-uiwidget/MapplsUIWidgets.xcframework-2.0.1.zip",
+            checksum: "727134b347f1a95d7109ddc5618c4b7248f67f6c3e94daeccce562c839c03605"
         ),
         .target(
             name: "MapplsUIWidgetWrapper",
